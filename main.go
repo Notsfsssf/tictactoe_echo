@@ -64,18 +64,19 @@ func caculateWinner() bool {
 	}
 	return false
 }
+
 //向所有玩家传递信息变化
 func handleMessages() {
 	for {
 		msg := <-broadcast
 		squares[msg.Position] = msg.Iso
-		if caculateWinner() {
-			for client := range players {
-					client.Close()
-					delete(clients, client)
-			}
-			squares= make(map[int]bool)
-		}
+		//if caculateWinner() {
+		//	for client := range players {
+		//			client.Close()
+		//			delete(clients, client)
+		//	}
+		//	squares= make(map[int]bool)
+		//}
 		for client := range players {
 			err := client.WriteJSON(msg)
 			if err != nil {
@@ -88,6 +89,7 @@ func handleMessages() {
 }
 
 var num = 1
+
 //开始下棋
 func hello(c echo.Context) error {
 	ws, err := upgrader.Upgrade(c.Response(), c.Request(), nil)
@@ -116,6 +118,7 @@ func hello(c echo.Context) error {
 
 var intName = 1
 var id = time.Now().String()
+
 //等待玩家
 func handleName(c echo.Context) error {
 	name := c.Param("name")
