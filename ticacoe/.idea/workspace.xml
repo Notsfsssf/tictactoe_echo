@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5aca43c9-a6c8-4418-a594-a28a9c8eb216" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Board.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Board.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Square.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Square.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Welcome.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Local Unit Tests" color="bbff7e" />
+    <fileColor scope="Android Instrumented Tests" color="bbff7e" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Q3bbAdoWJoGgzAqjaUITljv9lM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5aca43c9-a6c8-4418-a594-a28a9c8eb216" name="Default Changelist" comment="" />
+      <created>1567002295814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567002295814</updated>
+      <workItem from="1567002297519" duration="1389000" />
+      <workItem from="1567041225695" duration="1153000" />
+      <workItem from="1567070057139" duration="191000" />
+      <workItem from="1567070271362" duration="437000" />
+      <workItem from="1567077908664" duration="3780000" />
+      <workItem from="1567139531719" duration="1349000" />
+      <workItem from="1567155611296" duration="112000" />
+      <workItem from="1567303486015" duration="2278000" />
+      <workItem from="1567346541142" duration="619000" />
+      <workItem from="1567504790404" duration="990000" />
+      <workItem from="1567559864518" duration="1974000" />
+      <workItem from="1567574620418" duration="197000" />
+      <workItem from="1567576209358" duration="2949000" />
+      <workItem from="1567585339782" duration="599000" />
+      <workItem from="1567663032413" duration="41000" />
+      <workItem from="1567663285579" duration="32000" />
+      <workItem from="1567666100273" duration="1439000" />
+      <workItem from="1567670161585" duration="3129000" />
+      <workItem from="1567685712396" duration="2220000" />
+      <workItem from="1567689339734" duration="517000" />
+      <workItem from="1567689936798" duration="37000" />
+      <workItem from="1567689991340" duration="219000" />
+      <workItem from="1567832329205" duration="16000" />
+      <workItem from="1567837065323" duration="35000" />
+      <workItem from="1568101114681" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
