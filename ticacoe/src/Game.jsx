@@ -8,7 +8,6 @@ import Board from "./Board";
 import "./Game.css";
 import useWebSocket from "react-use-websocket";
 function Game(props) {
-
   const index = props.location.state.index;
   const iso = index % 2 === 0;
   const wsUrl = "ws://127.0.0.1:1323/ws/" + props.match.params.id;
@@ -62,9 +61,18 @@ function Game(props) {
   }
 
   function handleClick(i) {
-  
     if (calculateWinner(squares) || squares[i]) {
+      if(calculateWinner(squares)){
+        return
+      }
       return;
+    }
+    if (lastMessage) {
+      if (lastMessage.data) {
+        if (JSON.stringify(lastMessage.data).iso == iso) {
+          return;
+        }
+      }
     }
     const message = JSON.stringify({ position: i, iso: iso });
     sendMessage(message);
@@ -73,7 +81,7 @@ function Game(props) {
   return (
     <div className="game">
       <div className="game-board">
-        <Board squares={squares} onTap={i => handleClick(i)} />
+        <Board  disabled={win} squares={squares} onTap={i => handleClick(i)} />
       </div>
       <div className="game-info">
         <div>status:{win}</div>

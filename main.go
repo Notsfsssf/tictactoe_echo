@@ -67,9 +67,17 @@ func caculateWinner() bool {
 
 //向所有玩家传递信息变化
 func handleMessages() {
+	historySqueres := list.New()
 	for {
 		msg := <-broadcast
 		squares[msg.Position] = msg.Iso
+		if historySqueres.Len() != 0 {
+			step := historySqueres.Front().Value.(Step)
+			if msg.Iso == step.Iso {
+				continue
+			}
+		} //跳过非法抢步请求
+		historySqueres.PushBack(msg)
 		//if caculateWinner() {
 		//	for client := range players {
 		//			client.Close()

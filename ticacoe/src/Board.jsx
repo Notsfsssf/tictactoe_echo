@@ -7,6 +7,7 @@ function Board(props) {
             <Square
                 value={props.squares[i]}
                 onClick={() => props.onTap(i)}
+                disabled={()=>props.disabled}
             />
         );
     }
